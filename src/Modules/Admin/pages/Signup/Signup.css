@@ -1,0 +1,113 @@
+
+/* Apply styles to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.heading-container {
+  text-align: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+/* Apply styles to the body */
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: #78a8a0;
+}
+
+/* Styling for the container */
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 430px;
+  width: 100%;
+  background: #4d628b;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for the form header */
+.form-header {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Styling for form items */
+.form-item {
+  margin-bottom: 1.3rem;
+}
+
+/* Styling for form inputs */
+.form-input {
+  height: 60px;
+  width: 100%;
+  padding: 0 15px;
+  font-size: 17px;
+  border: 1px solid #d6da17;
+  border-radius: 6px;
+  outline: none;
+}
+
+/* Styling for form inputs when focused */
+.form-input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for form buttons */
+.form-button {
+  color: #e4327c;
+  background: #54b4a3;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+/* Signup Form Container */
+.signup-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #107e62;
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for the starting Login/Signup button */
+.start-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  color: #99999c;
+  background-color: #009579;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the starting Login/Signup button */
+.start-button:hover {
+  background-color: #006653;
+} b
+
+
+/* Styling for form buttons on hover */
+.form-button:hover {
+  background: #006653;
+}
+
+
